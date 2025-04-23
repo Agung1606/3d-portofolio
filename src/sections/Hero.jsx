@@ -1,9 +1,9 @@
 import React from 'react'
-import { words } from "../constants/index"
-import Button from '../components/Button'
-import HeroExperience from '../components/heroModels/HeroExperience'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import { words } from "../constants/index"
+import HeroExperience from '../components/heroModels/HeroExperience'
+import Button from '../components/Button'
 import AnimatedCounter from '../components/AnimatedCounter'
 
 const Hero = () => {
@@ -65,7 +65,6 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-
       <AnimatedCounter />
     </section>
   )
