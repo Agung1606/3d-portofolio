@@ -2,7 +2,7 @@ import React from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { words } from "../constants/index"
-import HeroExperience from '../components/heroModels/HeroExperience'
+import HeroExperience from "../components/models/hero-model/HeroExperience"
 import Button from '../components/Button'
 import AnimatedCounter from '../components/AnimatedCounter'
 
