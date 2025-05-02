@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    allowedHosts: ["5173-agung1606-3dportofolio-bvhgnrg9n8j.ws-us118.gitpod.io"]
+    allowedHosts: ["5173-agung1606-3dportofolio-yyhrmt4lyxl.ws-us118.gitpod.io"]
   }
 })
